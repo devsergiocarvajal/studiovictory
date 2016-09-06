@@ -1,0 +1,48 @@
+{
+  "name": "studiovictory",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "preinstall": "npm prune",
+    "postinstall": "bower prune; bower install; grunt githooks"
+  },
+  "author": "Sergio Carvajal",
+  "license": "MIT",
+  "repository": {
+      "type": "git",
+      "url": "git://github.com/devsergiocarvajal/studiovictory.git"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "express-handlebars": "latest",
+    "lodash": "latest",
+    "morgan": "~1.7.0",
+    "stylus": "latest",
+    "nib": "latest",
+    "js-yaml": "latest"
+  },
+  "devDependencies": {
+    "bower": "latest",
+    "grunt": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-stylus": "latest",
+    "grunt-githooks": "latest",
+    "grunt-jscs": "latest",
+    "grunt-karma": "latest",
+    "grunt-mocha-test": "latest",
+    "grunt-shell": "latest",
+    "karma": "latest",
+    "karma-chai": "latest",
+    "karma-html2js-preprocessor": "latest",
+    "karma-mocha": "latest",
+    "karma-mocha-reporter": "latest",
+    "karma-phantomjs-launcher": "latest",
+    "karma-sinon": "latest",
+    "mocha": "latest",
+    "rewire": "latest",
+    "sinon": "latest"
+  }
+}
