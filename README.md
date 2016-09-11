@@ -13,7 +13,7 @@
 5. Install the latest version of Node.js (<http://nodejs.org/>)
 
 6. Install the Berkshelf, Omnibus, and VBGuest plugins for VirtualBox:
-
+  
   For Mac:
 
     `NOKOGIRI_USE_SYSTEM_LIBRARIES=1 vagrant plugin install vagrant-berkshelf vagrant-omnibus vagrant-vbguest`

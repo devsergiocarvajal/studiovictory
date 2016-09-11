@@ -16,7 +16,7 @@ production: &default
     default: home
   languages:
     default: en
-    list: [en, es]
+    list: [en, es, fr, pt, jp]
 
 stage: &stage
   <<: *default

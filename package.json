@@ -21,8 +21,7 @@
     "lodash": "latest",
     "morgan": "~1.5.1",
     "stylus": "latest",
-    "js-yaml": "latest",
-    "html-minifier": "latest"
+    "js-yaml": "latest"
   },
   "devDependencies": {
     "bower": "latest",
@@ -44,6 +43,6 @@
     "karma-sinon": "latest",
     "mocha": "latest",
     "rewire": "latest",
-    "sinon": "latest"   
+    "sinon": "latest"
   }
 }
